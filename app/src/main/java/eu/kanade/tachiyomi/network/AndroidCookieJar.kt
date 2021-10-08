@@ -1,6 +1,6 @@
 package eu.kanade.tachiyomi.network
 
-import android.webkit.CookieManager
+import com.tencent.smtt.sdk.CookieManager
 import okhttp3.Cookie
 import okhttp3.CookieJar
 import okhttp3.HttpUrl

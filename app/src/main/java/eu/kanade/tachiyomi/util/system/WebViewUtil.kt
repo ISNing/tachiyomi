@@ -3,9 +3,9 @@ package eu.kanade.tachiyomi.util.system
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.pm.PackageManager
-import android.webkit.CookieManager
-import android.webkit.WebSettings
-import android.webkit.WebView
+import com.tencent.smtt.sdk.CookieManager
+import com.tencent.smtt.sdk.WebSettings
+import com.tencent.smtt.sdk.WebView
 import timber.log.Timber
 
 object WebViewUtil {

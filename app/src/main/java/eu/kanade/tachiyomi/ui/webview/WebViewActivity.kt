@@ -7,8 +7,8 @@ import android.graphics.Bitmap
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.webkit.WebChromeClient
-import android.webkit.WebView
+import com.tencent.smtt.sdk.WebChromeClient
+import com.tencent.smtt.sdk.WebView
 import android.widget.Toast
 import androidx.core.graphics.ColorUtils
 import androidx.core.view.isInvisible

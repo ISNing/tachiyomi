@@ -82,3 +82,15 @@
     <methods>;
 }
 ##---------------End: proguard configuration for kotlinx.serialization  ----------
+## X5
+-dontwarn dalvik.**
+-dontwarn com.tencent.smtt.**
+
+-keep class com.tencent.smtt.** {
+    *;
+}
+
+-keep class com.tencent.tbs.** {
+    *;
+}
+## End X5
