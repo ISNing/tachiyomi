@@ -75,8 +75,6 @@
     <string name="download_notifier_unknown_error">Nevarēja lejupielādēt nodaļu neparedzētas kļūdas dēļ</string>
     <string name="download_notifier_title_error">Kļūda</string>
     <string name="download_notifier_downloader_title">Lejupielādētājs</string>
-    <string name="information_webview_outdated">Lai uzlabotu saderību, lūdzu, atjauniniet WebView lietotni</string>
-    <string name="information_webview_required">Tachiyomi ir nepieciešams WebView</string>
     <string name="restoring_backup_error">Dublējuma atjaunināšana neizdevās</string>
     <string name="restoring_backup">Atjaunina dublējumu</string>
     <string name="restore_in_progress">Atjaunināšana jau notiek</string>

@@ -365,7 +365,6 @@
     <string name="ext_updates_pending">Uppdateringar väntar</string>
     <string name="pref_cutout_short">Visa innehåll i utskärningsområdet</string>
     <string name="information_cloudflare_bypass_failure">Det gick inte att kringgå Cloudflare</string>
-    <string name="information_webview_outdated">Uppdatera WebView-appen för bättre kompatibilitet</string>
     <string name="channel_new_chapters">Kapiteluppdateringar</string>
     <string name="unlock_app">Lås upp Tachiyomi</string>
     <string name="secure_screen_summary">Dölj app-innehåll när du byter appar, och blockera skärmdumpar</string>
@@ -428,7 +427,6 @@
     <string name="manga_info_expand">Mer</string>
     <string name="pref_confirm_exit">Bekräfta utgång</string>
     <string name="confirm_exit">Tryck tillbaka igen för att gå ur</string>
-    <string name="information_webview_required">WebView krävs för Tachiyomi</string>
     <string name="recent_manga_time">Kapitel %1$s - %2$s</string>
     <string name="error_invalid_date_supplied">Ogiltigt datum har angetts</string>
     <string name="local_source_help_guide">Lokal källa guide</string>

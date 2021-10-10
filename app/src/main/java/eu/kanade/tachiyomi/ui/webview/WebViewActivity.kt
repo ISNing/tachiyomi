@@ -7,13 +7,13 @@ import android.graphics.Bitmap
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import com.tencent.smtt.sdk.WebChromeClient
-import com.tencent.smtt.sdk.WebView
 import android.widget.Toast
 import androidx.core.graphics.ColorUtils
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
+import com.tencent.smtt.sdk.WebChromeClient
+import com.tencent.smtt.sdk.WebView
 import eu.kanade.tachiyomi.BuildConfig
 import eu.kanade.tachiyomi.R
 import eu.kanade.tachiyomi.databinding.WebviewActivityBinding
@@ -43,18 +43,12 @@ class WebViewActivity : BaseViewBindingActivity<WebviewActivityBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        if (!WebViewUtil.supportsWebView(this)) {
-            toast(R.string.information_webview_required, Toast.LENGTH_LONG)
-            finish()
-            return
-        }
-
         try {
             binding = WebviewActivityBinding.inflate(layoutInflater)
             setContentView(binding.root)
         } catch (e: Throwable) {
             // Potentially throws errors like "Error inflating class android.webkit.WebView"
-            toast(R.string.information_webview_required, Toast.LENGTH_LONG)
+            toast(e.toString(), Toast.LENGTH_LONG)
             finish()
             return
         }

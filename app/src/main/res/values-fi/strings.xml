@@ -365,7 +365,6 @@
     <string name="unlock_app">Avaa Tachiyomi</string>
     <string name="pref_category_display">Näyttö</string>
     <string name="ext_updates_pending">Päivitettävät</string>
-    <string name="information_webview_outdated">Päivitä WebView-sovellus yhteensopivuuden parantamiseksi</string>
     <plurals name="notification_chapters_generic">
         <item quantity="one">1 uusi luku</item>
         <item quantity="other">%1$d uutta lukua</item>
@@ -426,7 +425,6 @@
     <string name="action_select_inverse">Valitse käänteinen</string>
     <string name="pref_confirm_exit">Vahvista poistuminen</string>
     <string name="vertical_plus_viewer">Jatkuva pystysuora</string>
-    <string name="information_webview_required">WebView on pakollinen Tachiyomissa</string>
     <string name="restore_in_progress">Palautus on jo käynnissä</string>
     <string name="backup_in_progress">Varmuuskopiointi on jo käynnissä</string>
     <string name="pref_webtoon_side_padding">Sivuntäyttö</string>

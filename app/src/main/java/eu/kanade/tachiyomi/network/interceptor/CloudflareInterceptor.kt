@@ -2,19 +2,15 @@ package eu.kanade.tachiyomi.network.interceptor
 
 import android.annotation.SuppressLint
 import android.content.Context
+import androidx.core.content.ContextCompat
 import com.tencent.smtt.sdk.WebSettings
 import com.tencent.smtt.sdk.WebView
-import android.widget.Toast
-import androidx.core.content.ContextCompat
 import eu.kanade.tachiyomi.R
 import eu.kanade.tachiyomi.network.NetworkHelper
 import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.util.lang.launchUI
 import eu.kanade.tachiyomi.util.system.WebViewClientCompat
 import eu.kanade.tachiyomi.util.system.WebViewUtil
-import eu.kanade.tachiyomi.util.system.isOutdated
 import eu.kanade.tachiyomi.util.system.setDefaultSettings
-import eu.kanade.tachiyomi.util.system.toast
 import okhttp3.Cookie
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.Interceptor
@@ -43,13 +39,6 @@ class CloudflareInterceptor(private val context: Context) : Interceptor {
     @Synchronized
     override fun intercept(chain: Interceptor.Chain): Response {
         val originalRequest = chain.request()
-
-        if (!WebViewUtil.supportsWebView(context)) {
-            launchUI {
-                context.toast(R.string.information_webview_required, Toast.LENGTH_LONG)
-            }
-            return chain.proceed(originalRequest)
-        }
 
         initWebView
 
@@ -85,7 +74,6 @@ class CloudflareInterceptor(private val context: Context) : Interceptor {
 
         var challengeFound = false
         var cloudflareBypassed = false
-        var isWebViewOutdated = false
 
         val origRequestUrl = request.url.toString()
         val headers = request.headers.toMultimap().mapValues { it.value.getOrNull(0) ?: "" }.toMutableMap()
@@ -146,10 +134,6 @@ class CloudflareInterceptor(private val context: Context) : Interceptor {
         latch.await(12, TimeUnit.SECONDS)
 
         executor.execute {
-            if (!cloudflareBypassed) {
-                isWebViewOutdated = webView?.isOutdated() == true
-            }
-
             webView?.stopLoading()
             webView?.destroy()
             webView = null
@@ -157,11 +141,6 @@ class CloudflareInterceptor(private val context: Context) : Interceptor {
 
         // Throw exception if we failed to bypass Cloudflare
         if (!cloudflareBypassed) {
-            // Prompt user to update WebView if it seems too outdated
-            if (isWebViewOutdated) {
-                context.toast(R.string.information_webview_outdated, Toast.LENGTH_LONG)
-            }
-
             throw Exception(context.getString(R.string.information_cloudflare_bypass_failure))
         }
     }

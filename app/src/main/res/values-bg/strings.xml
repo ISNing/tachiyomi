@@ -380,8 +380,6 @@
     <string name="secure_screen">Сигурност</string>
     <string name="channel_ext_updates">Ъпдейти на разширенията</string>
     <string name="channel_new_chapters">Нови глави</string>
-    <string name="information_webview_outdated">Моля, обновете WebView за по-добра съвместимост</string>
-    <string name="information_webview_required">WebView е необходим за Tachiyomi</string>
     <string name="information_cloudflare_bypass_failure">Грешка при минаването през Cloudflare</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="one">1 наличен ъпдейт за разширение</item>

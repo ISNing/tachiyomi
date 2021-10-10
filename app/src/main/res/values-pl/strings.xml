@@ -356,7 +356,6 @@
     <string name="hide_notification_content">Ukryj zawartość powiadomienia</string>
     <string name="lock_when_idle">Zablokuj podczas bezczynności</string>
     <string name="channel_new_chapters">Aktualizacje rozdziałów</string>
-    <string name="information_webview_outdated">Zaktualizuj aplikację WebView dla lepszej kompatybilności</string>
     <string name="information_cloudflare_bypass_failure">Nie udało się obejść Cloudflare</string>
     <string name="label_more">Więcej</string>
     <string name="secure_screen_summary">Ukryj zawartość ekranu przy przełączaniu między aplikacjami i blokuj zrzuty ekranu</string>
@@ -429,7 +428,6 @@
     <string name="last_used_source">Ostatnio używane</string>
     <string name="tracking_info">Przesyłanie postępu czytania do zewnętrznego serwisu. Ustaw śledzenie guzikiem \"Śledzenie\" w wybranych tytułach.</string>
     <string name="channel_ext_updates">Aktualizacje rozszerzeń</string>
-    <string name="information_webview_required">Widok w przeglądarce jest wymagany dla Tachiyomi</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="one">Dostępna aktualizacja rozszerzenia</item>
         <item quantity="few">Dostępne %d aktualizacji rozszerzeń</item>

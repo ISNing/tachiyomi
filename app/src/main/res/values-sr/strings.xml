@@ -410,8 +410,6 @@
     <string name="pref_disable_battery_optimization_summary">Pomaže kod pozadinskog ažuriranja biblioteke i rezervne kopije</string>
     <string name="download_notifier_title_error">Greška</string>
     <string name="download_notifier_downloader_title">Preuzimač</string>
-    <string name="information_webview_outdated">Ažurirajte aplikaciju \"WebView\" za bolju kompatibilnost</string>
-    <string name="information_webview_required">WebView je potreban za Tachiyomi</string>
     <string name="information_cloudflare_bypass_failure">Neuspelo zaobilaženje Cloudflare</string>
     <string name="description_cover">Naslovna slika mange</string>
     <plurals name="update_check_notification_ext_updates">

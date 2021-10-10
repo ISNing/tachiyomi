@@ -365,7 +365,6 @@
     <string name="ext_updates_pending">अपडेट लंबित हैं</string>
     <string name="pref_cutout_short">कटआउट क्षेत्र में सामग्री दिखाएं</string>
     <string name="information_cloudflare_bypass_failure">Cloudflare को बायपास करने में विफल</string>
-    <string name="information_webview_outdated">बेहतर संगतता के लिए कृपया WebView ऐप को अपडेट करें</string>
     <string name="channel_new_chapters">अध्याय अद्यतन</string>
     <string name="unlock_app">अनलॉक Tachiyomi</string>
     <string name="secure_screen_summary">एप्लिकेशन स्विच करते समय एप्लिकेशन सामग्री छिपाएं और स्क्रीनशॉट ब्लॉक करें</string>
@@ -426,7 +425,6 @@
     <string name="add_to_library">पुस्तकालय में जोड़ें</string>
     <string name="manga_info_collapse">कम</string>
     <string name="manga_info_expand">अधिक</string>
-    <string name="information_webview_required">WebView के लिए आवश्यक है Tachiyomi</string>
     <string name="licenses">ओपन सोर्स लाइसेंस</string>
     <string name="website">वेबसाइट</string>
     <string name="pref_confirm_exit">बाहर निकलने की पुष्टि करें</string>

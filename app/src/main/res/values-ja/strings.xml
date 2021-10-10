@@ -446,8 +446,6 @@
     <string name="action_menu">メニュー</string>
     <string name="confirm_exit">もう一度押して終了します</string>
     <string name="channel_new_chapters">章の更新</string>
-    <string name="information_webview_outdated">WebViewアプリを更新して互換性を向上させてください</string>
-    <string name="information_webview_required">TachiyomiはWebViewを必要としています</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="other">%d件の拡張機能の更新が利用可能</item>
     </plurals>

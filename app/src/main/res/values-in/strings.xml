@@ -370,7 +370,6 @@
     <string name="paused">Dijeda</string>
     <string name="want_to_read">Ingin dibaca</string>
     <string name="information_cloudflare_bypass_failure">Gagal untuk menembus Cloudflare</string>
-    <string name="information_webview_outdated">Harap perbarui aplikasi WebView untuk kompatibilitas yang lebih baik</string>
     <string name="channel_new_chapters">Pembaruan chapter</string>
     <string name="notification_check_updates">Memeriksa untuk chapter baru</string>
     <string name="pref_disable_battery_optimization">Nonaktifkan optimisasi baterai</string>
@@ -397,7 +396,6 @@
     <string name="pref_enable_automatic_extension_updates">Periksa pembaruan ekstensi</string>
     <string name="pref_category_reading">Membaca</string>
     <string name="action_sort_last_checked">Terakhir diperiksa</string>
-    <string name="information_webview_required">WebView dibutuhkan untuk Tachiyomi</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="other">Terdapat %d perbaruan ekstensi</item>
     </plurals>

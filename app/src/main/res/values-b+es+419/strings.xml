@@ -79,7 +79,6 @@
     <string name="action_display_show_tabs">Mostrar pestaña de categorías</string>
     <string name="action_display">Mostrar</string>
     <string name="action_display_mode">Modo de visualización</string>
-    <string name="information_webview_outdated">Actualice la aplicación WebView para mejor compatibilidad</string>
     <string name="update_check_notification_update_available">¡Nueva versión disponible!</string>
     <string name="action_move_category">Asignar categorías</string>
     <string name="action_view_chapters">Ver capítulos</string>
@@ -238,7 +237,6 @@
     <string name="download_notifier_unknown_error">No se pudo descargar el capítulo debido a un error inesperado</string>
     <string name="download_notifier_title_error">Error</string>
     <string name="download_notifier_downloader_title">Descargador</string>
-    <string name="information_webview_required">Se requiere WebView para Tachiyomi</string>
     <string name="information_cloudflare_bypass_failure">Fallo al evitar Cloudflare</string>
     <string name="description_cover">Portada del manga</string>
     <plurals name="update_check_notification_ext_updates">

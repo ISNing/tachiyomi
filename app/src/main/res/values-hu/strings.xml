@@ -173,7 +173,6 @@
     <string name="download_notifier_text_only_wifi">Nincs Wi-Fi kapcsolat</string>
     <string name="download_notifier_unknown_error">Egy váratlan hiba miatt nem sikerült letölteni a fejezetet</string>
     <string name="download_notifier_title_error">Hiba</string>
-    <string name="information_webview_outdated">A jobb kompatibilitás érdekében kérlek, frissítsd a WebView alkalmazást</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="one">Egy új bővítményfrissítés érhető el</item>
         <item quantity="other">%d bővítményfrissítés érhető el</item>
@@ -300,7 +299,6 @@
     <string name="migrate">Áttelepítés</string>
     <string name="display_mode_chapter">%1$s. fejezet</string>
     <string name="channel_crash_logs">Összeomlási naplók</string>
-    <string name="information_webview_required">A Tachiyomi működéséhez WebView szükséges</string>
     <string name="description_cover">Manga borító</string>
     <string name="notification_chapters_multiple">%1$s. fejezetek</string>
     <string name="notification_chapters_single_and_more">A(z) %1$s. fejezet és %2$d egyéb fejezetek</string>

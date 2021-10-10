@@ -382,7 +382,6 @@
     <string name="action_menu">Meny</string>
     <string name="label_sources">Kilder</string>
     <string name="channel_ext_updates">Utvidelsesoppdateringer</string>
-    <string name="information_webview_required">Tachiyomi krever WebView</string>
     <string name="add_tracking">Legg til sporing</string>
     <string name="manga_info_collapse">Mindre</string>
     <string name="manga_info_expand">Mer</string>
@@ -517,7 +516,6 @@
         <item quantity="one">Det er ett manglende kapittel</item>
         <item quantity="other">Det er %d manglende kapittel</item>
     </plurals>
-    <string name="information_webview_outdated">Oppdater WebView-programmet for bedre kompabilitet</string>
     <string name="chapter_settings_updated">Oppdaterte forvalgte kapittelinnstillinger</string>
     <string name="confirm_set_chapter_settings">Er du sikker på at du vil lagre disse innstillingene som forvalg\?</string>
     <string name="action_search_settings">Søkeinnstillinger</string>

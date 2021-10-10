@@ -344,8 +344,6 @@
     <string name="action_select_inverse">Επιλογή αντίστροφου</string>
     <string name="channel_ext_updates">Ενημερώσεις επεκτάσεων</string>
     <string name="channel_new_chapters">Ενημερώσεις κεφαλαίων</string>
-    <string name="information_webview_outdated">Παρακαλώ ενημερώστε την εφαρμογή WebView για καλύτερη συμβατότητα</string>
-    <string name="information_webview_required">Το WebView απαιτείται για το Tachiyomi</string>
     <string name="notification_chapters_single_and_more">Κεφάλαιο %1$s και %2$d ακόμη</string>
     <string name="notification_chapters_multiple">Κεφάλαια %1$s</string>
     <string name="notification_chapters_single">Κεφάλαιο %1$s</string>

@@ -360,7 +360,6 @@
     <string name="no_results_found">Không tìm thấy kết quả nào</string>
     <string name="migration_selection_prompt">Chọn 1 nguồn để di chuyển từ</string>
     <string name="channel_ext_updates">Cập nhật tiện ích bổ sung</string>
-    <string name="information_webview_outdated">Vui lòng cập nhật WebView để tương thích tốt hơn</string>
     <string name="information_cloudflare_bypass_failure">Bỏ qua Cloudflare thất bại</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="other">Có %d bản cập nhật của các tiện ích bổ sung</item>
@@ -513,7 +512,6 @@
     <string name="channel_errors">Lỗi</string>
     <string name="channel_complete">Hoàn thành</string>
     <string name="channel_progress">Quá trình</string>
-    <string name="information_webview_required">Tachiyomi yêu cầu phải có WebView</string>
     <string name="download_notifier_download_finish">Tải xuống hoàn tất</string>
     <string name="update_check_eol">Phiên bản Android này không còn được hỗ trợ</string>
     <plurals name="notification_update_error">

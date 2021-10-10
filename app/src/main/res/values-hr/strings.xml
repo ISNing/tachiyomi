@@ -449,7 +449,6 @@
         <item quantity="few">Dostupne su %d nove verzije proširenja</item>
         <item quantity="other">Dostupno je %d novih verzija proširenja</item>
     </plurals>
-    <string name="information_webview_required">Za Tachiyomi je potreban WebView</string>
     <plurals name="notification_chapters_generic">
         <item quantity="one">%1$d novo poglavlje</item>
         <item quantity="few">%1$d novih poglavlja</item>
@@ -464,7 +463,6 @@
     <string name="download_notifier_unknown_error">Poglavlje nije moguće preuzeti zbog neočekivane pogreške</string>
     <string name="download_notifier_title_error">Greška</string>
     <string name="download_notifier_downloader_title">Preuzimanja</string>
-    <string name="information_webview_outdated">Za bolju kompatibilnost, aktualiziraj WebView</string>
     <string name="pref_refresh_library_covers">Osvježi naslovnice za manga u biblioteci</string>
     <string name="sort_by_upload_date">Po datumu prijenosa</string>
     <string name="label_data">Podaci</string>

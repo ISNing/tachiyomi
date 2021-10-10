@@ -364,7 +364,6 @@
     <string name="ext_updates_pending">Kemas kini baharu</string>
     <string name="pref_cutout_short">Tunjuk kandungan dalam kawasan bertakuk</string>
     <string name="information_cloudflare_bypass_failure">Gagal untuk memintas Cloudflare</string>
-    <string name="information_webview_outdated">Sila kemas kini aplikasi WebView untuk keserasian yang lebih baik</string>
     <string name="channel_new_chapters">Pengemaskinian bab</string>
     <string name="unlock_app">Buka kunci Tachiyomi</string>
     <string name="secure_screen_summary">Sorok kandungan aplikasi apabila menukar aplikasi dan sekat tangkapan skrin</string>
@@ -409,7 +408,6 @@
     <string name="label_sources">Sumber</string>
     <string name="pref_webtoon_side_padding">Tambahan sisi</string>
     <string name="webtoon_side_padding_10">10%</string>
-    <string name="information_webview_required">WebView diperlukan untuk Tachiyomi</string>
     <string name="recent_manga_time">Bab %1$s - %2$s</string>
     <string name="error_invalid_date_supplied">Tarikh dimasukkan tidak sah</string>
     <string name="add_tracking">Tambah penjejakan</string>

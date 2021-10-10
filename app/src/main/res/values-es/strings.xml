@@ -397,7 +397,6 @@
     <string name="ext_updates_pending">Actualizaciones pendientes</string>
     <string name="pref_cutout_short">Mostrar contenido en el área recortada</string>
     <string name="information_cloudflare_bypass_failure">Fallo al evitar Cloudflare</string>
-    <string name="information_webview_outdated">Actualice la aplicación WebView para mejor compatibilidad</string>
     <string name="channel_new_chapters">Capítulos actualizados</string>
     <string name="unlock_app">Desbloquear Tachiyomi</string>
     <string name="secure_screen_summary">Ocultar contenido de la aplicación al cambiar de aplicación y bloquear capturas de pantalla</string>
@@ -456,7 +455,6 @@
     <string name="add_tracking">Añadir seguimiento</string>
     <string name="in_library">En biblioteca</string>
     <string name="add_to_library">Añadir a biblioteca</string>
-    <string name="information_webview_required">Tachiyomi necesita WebView</string>
     <string name="manga_info_collapse">Menos</string>
     <string name="manga_info_expand">Más</string>
     <string name="licenses">Licencias de código abierto</string>

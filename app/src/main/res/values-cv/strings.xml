@@ -194,7 +194,6 @@
     <string name="action_next_chapter">Маллали сыпӑк</string>
     <string name="action_previous_chapter">Умӗнхи сыпӑк</string>
     <string name="track">Сӑнану</string>
-    <string name="information_webview_outdated">Чи лайӑх пӗрлӗхшӗн WebView-а ҫӗнет</string>
     <string name="information_cloudflare_bypass_failure">Cloudflare-ран иртеймерӗ</string>
     <string name="information_empty_category">Санӑн пухмӑшсем ҫук. Хӑвӑн вулавӑша йӗркелеме + пускӑч ҫине пус.</string>
     <string name="label_migration">Куҫар</string>
@@ -315,7 +314,6 @@
     <string name="download_notifier_download_paused">Тиеве вӑхӑтлӑха чарнӑ</string>
     <string name="download_notifier_unknown_error">Кӗтмен йӑнӑша пула сыпӑксене тиесе илеймест</string>
     <string name="download_notifier_downloader_title">Тиевҫӗ</string>
-    <string name="information_webview_required">Tachiyomi валли WebView кирлӗ</string>
     <string name="description_cover">Манкӑ хуплашки</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="one">Хушма валли ҫӗнетӳ пур</item>

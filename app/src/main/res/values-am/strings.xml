@@ -261,7 +261,6 @@
     <string name="ext_language_info">ቋንቋ: %1$s</string>
     <string name="ext_version_info">ስሪት: %1$s</string>
     <string name="action_sort_alpha">በፊደል ደርድር</string>
-    <string name="information_webview_required">ለታቺዮሚ የድር እይታ ያስፈልጋል</string>
     <string name="information_cloudflare_bypass_failure">ክላዉድ ፍሌር ን ማለፍ አልተሳካም</string>
     <string name="download_notifier_no_network">ምንም የአውታረ መረብ ግንኙነት አይገኝም</string>
     <string name="tapping_inverted_both">ሁለቱም</string>
@@ -310,9 +309,7 @@
     <string name="download_notifier_unknown_error">ባልተጠበቀ ስህተት ምክንያት ምዕራፍ ማውረድ አልተቻለም</string>
     <string name="download_notifier_title_error">ስህተት</string>
     <string name="download_notifier_downloader_title">አውራጅ</string>
-    <string name="chapter_settings_updated">ነባሪ የምዕራፍ ቅንጅቶች ተዘምነዋል</string>
-    <string name="information_webview_outdated">ለተሻለ ተኳኋኝነት እባክዎ የድር እይታን መተግበሪያውን ያዘምኑ</string>
-    <string name="pref_clear_cookies">ኩኪዎችን ያጽዱ</string>
+    <string name="chapter_settings_updated">ነባሪ የምዕራፍ ቅንጅቶች ተዘምነዋል</string>    <string name="pref_clear_cookies">ኩኪዎችን ያጽዱ</string>
     <string name="label_network">አውታረ መረብ</string>
     <string name="restoring_backup_canceled">ተሰርዟል ወደነበረበት መመለስ</string>
     <string name="restoring_backup_error">ምትኬን ወደነበረበት መመለስ አልተሳካም</string>

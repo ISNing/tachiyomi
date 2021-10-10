@@ -399,7 +399,6 @@
     <string name="ext_updates_pending">Mises à jour en attente</string>
     <string name="pref_cutout_short">Utiliser la zone de l\'encoche</string>
     <string name="information_cloudflare_bypass_failure">Impossible de contourner Cloudflare</string>
-    <string name="information_webview_outdated">Veuillez mettre à jour l\'application WebView pour une meilleure compatibilité</string>
     <string name="channel_new_chapters">Mises à jour des chapitres</string>
     <string name="unlock_app">Débloquer Tachiyomi</string>
     <string name="secure_screen_summary">Cacher le contenu lors du changement d\'application et bloquer les captures d\'écran</string>
@@ -475,7 +474,6 @@
     <string name="last_used_source">Dernière utilisée</string>
     <string name="check_for_updates">Rechercher des mises à jour</string>
     <string name="restore_duration">%02d min, %02d s</string>
-    <string name="information_webview_required">WebView est requis par Tachiyomi</string>
     <string name="local_source_help_guide">Guide des sources locales</string>
     <plurals name="download_queue_summary">
         <item quantity="one">1 restant</item>

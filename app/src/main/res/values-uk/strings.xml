@@ -367,7 +367,6 @@
     <string name="ext_updates_pending">Очікуються оновлення</string>
     <string name="pref_cutout_short">Відображати вміст обітнутої області</string>
     <string name="information_cloudflare_bypass_failure">Не вдалось обійти Cloudflare</string>
-    <string name="information_webview_outdated">Будь ласка, оновіть WebView для кращої сумісності</string>
     <string name="channel_new_chapters">Оновлення глав</string>
     <string name="unlock_app">Відчинити Tachiyomi</string>
     <string name="secure_screen_summary">Ховати вміст застосунку при перемиканні програм та блокувати скріншоти</string>
@@ -432,7 +431,6 @@
     <string name="add_to_library">Додати до бібліотеки</string>
     <string name="manga_info_collapse">Менше</string>
     <string name="manga_info_expand">Більше</string>
-    <string name="information_webview_required">WebView необхідний для Tachiyomi</string>
     <string name="licenses">Ліцензії з відкритим кодом</string>
     <string name="website">Сторінка</string>
     <string name="pref_confirm_exit">Підтвердити вихід</string>

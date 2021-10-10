@@ -1,34 +1,11 @@
 package eu.kanade.tachiyomi.util.system
 
 import android.annotation.SuppressLint
-import android.content.Context
-import android.content.pm.PackageManager
-import com.tencent.smtt.sdk.CookieManager
 import com.tencent.smtt.sdk.WebSettings
 import com.tencent.smtt.sdk.WebView
-import timber.log.Timber
 
 object WebViewUtil {
     const val REQUESTED_WITH = "com.android.browser"
-
-    const val MINIMUM_WEBVIEW_VERSION = 88
-
-    fun supportsWebView(context: Context): Boolean {
-        try {
-            // May throw android.webkit.WebViewFactory$MissingWebViewPackageException if WebView
-            // is not installed
-            CookieManager.getInstance()
-        } catch (e: Throwable) {
-            Timber.e(e)
-            return false
-        }
-
-        return context.packageManager.hasSystemFeature(PackageManager.FEATURE_WEBVIEW)
-    }
-}
-
-fun WebView.isOutdated(): Boolean {
-    return getWebViewMajorVersion() < WebViewUtil.MINIMUM_WEBVIEW_VERSION
 }
 
 @SuppressLint("SetJavaScriptEnabled")

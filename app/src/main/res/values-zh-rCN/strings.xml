@@ -362,7 +362,6 @@
     <string name="secure_screen">防窥页面</string>
     <string name="ext_updates_pending">待更新</string>
     <string name="information_cloudflare_bypass_failure">无法绕过 Cloudflare</string>
-    <string name="information_webview_outdated">请更新 WebView 应用以获得更好的兼容性</string>
     <string name="unlock_app">解锁 Tachiyomi</string>
     <string name="secure_screen_summary">在切换应用时隐藏预览，并禁止截取屏幕截图</string>
     <string name="pref_category_display">显示</string>
@@ -417,7 +416,6 @@
     <string name="vertical_plus_viewer">从上到下（连续）</string>
     <string name="action_select_inverse">反选</string>
     <string name="add_tracking">添加追踪进度</string>
-    <string name="information_webview_required">Tachiyomi 依赖于 WebView</string>
     <string name="manga_info_collapse">显示更少</string>
     <string name="manga_info_expand">显示更多</string>
     <string name="licenses">开源许可证</string>

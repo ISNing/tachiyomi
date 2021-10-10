@@ -364,7 +364,6 @@
     <string name="secure_screen">Scherm beveiligen</string>
     <string name="ext_updates_pending">Updates in de wachtrij</string>
     <string name="information_cloudflare_bypass_failure">Kon Cloudflare niet omzeilen</string>
-    <string name="information_webview_outdated">Gelieve de WebView-app bij te werken voor betere compatibiliteit</string>
     <string name="channel_new_chapters">Hoofdstukupdates</string>
     <string name="unlock_app">Ontgrendel Tachiyomi</string>
     <string name="secure_screen_summary">Verberg inhoud van app bij omschakelen tussen apps en blokkeer screenshots</string>
@@ -383,7 +382,6 @@
     <string name="restoring_backup_error">Herstellen mislukt</string>
     <string name="restore_in_progress">Er wordt al een back-up hersteld</string>
     <string name="channel_ext_updates">Extensie-updates</string>
-    <string name="information_webview_required">WebView is vereist voor Tachiyomi</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="one">Extensie-update beschikbaar</item>
         <item quantity="other">%d extensie-updates beschikbaar</item>

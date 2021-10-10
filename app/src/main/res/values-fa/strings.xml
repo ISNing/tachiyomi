@@ -222,8 +222,6 @@
     <string name="download_notifier_unknown_error">به دلیل خطای غیرمنتظره قسمت دانلود نشد</string>
     <string name="download_notifier_title_error">خطا</string>
     <string name="download_notifier_downloader_title">سیستم دانلود</string>
-    <string name="information_webview_outdated">لطفا برنامه WebView را برای سازگاری بهتر آپدیت کنید</string>
-    <string name="information_webview_required">WebView برای Tachiyomi مورد نیاز است</string>
     <string name="information_cloudflare_bypass_failure">عدم موفقیت در دور زدن Cloudflare</string>
     <string name="color_filter_a_value">opacity</string>
     <string name="color_filter_b_value">آبی</string>

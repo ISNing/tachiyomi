@@ -367,7 +367,6 @@
     <string name="ext_updates_pending">Доступны обновления</string>
     <string name="pref_cutout_short">Отображать содержимое в вырезанной области</string>
     <string name="information_cloudflare_bypass_failure">Не удалось обойти Cloudflare</string>
-    <string name="information_webview_outdated">Пожалуйста, обновите WebView для лучшей совместимости</string>
     <string name="channel_new_chapters">Обновления глав</string>
     <plurals name="notification_chapters_multiple_and_more">
         <item quantity="one">Главы %1$s и ещё 1</item>
@@ -433,7 +432,6 @@
     <string name="add_tracking">Добавить отслеживание</string>
     <string name="confirm_exit">Нажмите назад ещё раз, чтобы выйти</string>
     <string name="label_downloaded_only">Только загруженные комиксы</string>
-    <string name="information_webview_required">Для Tachiyomi необходим WebView</string>
     <string name="manga_info_collapse">Меньше</string>
     <string name="manga_info_expand">Больше</string>
     <string name="in_library">В библиотеке</string>

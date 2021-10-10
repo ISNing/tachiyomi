@@ -594,8 +594,6 @@
     <string name="channel_progress">ความคืบหน้า</string>
     <string name="download_notifier_download_finish">ดาวน์โหลดเสร็จสิ้นแล้ว</string>
     <string name="chapter_settings_updated">อัปเดตการตั้งค่าเริ่มต้นสำหรับตอนแล้ว</string>
-    <string name="information_webview_outdated">โปรดอัปเดตแอป WebView เพื่อความเข้ากันได้ที่ดีขึ้น</string>
-    <string name="information_webview_required">ต้องใช้ WebView สําหรับทาชิโยมิ</string>
     <string name="information_cloudflare_bypass_failure">ไม่สามารถเลี่ยงผ่าน Cloudflare ได้</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="other">มี %d การอัปเดตส่วนขยาย</item>

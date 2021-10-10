@@ -395,8 +395,6 @@
     <string name="confirm_exit">اضغط رجوع مرة أخرى للخروج</string>
     <string name="channel_ext_updates">تحديثات اﻹضافات</string>
     <string name="channel_new_chapters">تحديثات الفصول</string>
-    <string name="information_webview_outdated">يرجى تحديث تطبيق WebView لتوافق أفضل</string>
-    <string name="information_webview_required">يتطلب Tachiyomi وجود WebView</string>
     <string name="information_cloudflare_bypass_failure">فشل في تجاوز Cloudflare</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="zero">لايوجد تحديث للإضافة</item>

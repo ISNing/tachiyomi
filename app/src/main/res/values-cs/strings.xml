@@ -501,8 +501,6 @@
     <string name="channel_progress">Postup</string>
     <string name="download_notifier_download_finish">Stahování dokončeno</string>
     <string name="chapter_settings_updated">Výchozí nastavení kapitol aktualizováno</string>
-    <string name="information_webview_outdated">Prosím aktualizujte aplikaci WebView pro lepší kompatibilitu</string>
-    <string name="information_webview_required">Je nutné mít nainstalovanou aplikaci WebView</string>
     <string name="information_cloudflare_bypass_failure">Nastala chyba při obcházení služby Cloudflare</string>
     <plurals name="update_check_notification_ext_updates">
         <item quantity="one">Je dostupná aktualizace rozšíření</item>
