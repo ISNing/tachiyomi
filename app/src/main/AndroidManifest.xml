@@ -36,6 +36,8 @@
         android:supportsRtl="true"
         android:networkSecurityConfig="@xml/network_security_config">
 
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
         <activity
             android:name=".ui.main.MainActivity"
             android:launchMode="singleTop"
@@ -191,6 +193,12 @@
 
         <service android:name=".extension.util.ExtensionInstallService"
             android:exported="false" />
+
+        <service
+                android:name="com.tencent.smtt.export.external.DexClassLoaderProviderService"
+                android:label="dexopt"
+                android:process=":dexopt" >
+        </service>
 
         <provider
             android:name="androidx.core.content.FileProvider"

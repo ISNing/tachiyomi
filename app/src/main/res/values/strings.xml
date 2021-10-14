@@ -785,4 +785,5 @@
     <!-- S Pen actions -->
     <string name="spen_previous_page">Previous page</string>
     <string name="spen_next_page">Next page</string>
+    <string name="information_webview_not_ready">Nether Tbs or WebView is ready now, wait for a while and try again</string>
 </resources>

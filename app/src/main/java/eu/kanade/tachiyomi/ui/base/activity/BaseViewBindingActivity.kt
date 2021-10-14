@@ -7,6 +7,9 @@ import eu.kanade.tachiyomi.ui.security.SecureActivityDelegate
 abstract class BaseViewBindingActivity<VB : ViewBinding> : BaseThemedActivity() {
 
     lateinit var binding: VB
+    fun isBindingInitialized(): Boolean {
+        return ::binding.isInitialized
+    }
 
     @Suppress("LeakingThis")
     private val secureActivityDelegate = SecureActivityDelegate(this)

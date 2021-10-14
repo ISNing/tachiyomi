@@ -1,11 +1,17 @@
 package eu.kanade.tachiyomi.util.system
 
 import android.annotation.SuppressLint
+import android.content.Context
 import com.tencent.smtt.sdk.WebSettings
 import com.tencent.smtt.sdk.WebView
+import eu.kanade.tachiyomi.util.TbsInitHelper
 
 object WebViewUtil {
     const val REQUESTED_WITH = "com.android.browser"
+
+    fun webViewInitialized(context: Context): Boolean {
+        return TbsInitHelper(context).isInitialized()
+    }
 }
 
 @SuppressLint("SetJavaScriptEnabled")

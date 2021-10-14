@@ -43,12 +43,18 @@ class WebViewActivity : BaseViewBindingActivity<WebviewActivityBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        if (!WebViewUtil.webViewInitialized(this)) {
+            toast(R.string.information_webview_not_ready, Toast.LENGTH_LONG)
+            finish()
+            return
+        }
+
         try {
             binding = WebviewActivityBinding.inflate(layoutInflater)
             setContentView(binding.root)
         } catch (e: Throwable) {
             // Potentially throws errors like "Error inflating class android.webkit.WebView"
-            toast(e.toString(), Toast.LENGTH_LONG)
+            toast(R.string.information_webview_not_ready, Toast.LENGTH_LONG)
             finish()
             return
         }
@@ -94,7 +100,8 @@ class WebViewActivity : BaseViewBindingActivity<WebviewActivityBinding>() {
             var headers = mutableMapOf<String, String>()
             val source = sourceManager.get(intent.extras!!.getLong(SOURCE_KEY)) as? HttpSource
             if (source != null) {
-                headers = source.headers.toMultimap().mapValues { it.value.getOrNull(0) ?: "" }.toMutableMap()
+                headers = source.headers.toMultimap().mapValues { it.value.getOrNull(0) ?: "" }
+                    .toMutableMap()
                 binding.webview.settings.userAgentString = source.headers["User-Agent"]
             }
             headers["X-Requested-With"] = WebViewUtil.REQUESTED_WITH
@@ -136,8 +143,10 @@ class WebViewActivity : BaseViewBindingActivity<WebviewActivityBinding>() {
     override fun onDestroy() {
         super.onDestroy()
 
-        // Binding sometimes isn't actually instantiated yet somehow
-        binding?.webview?.destroy()
+        if (isBindingInitialized()) {
+            // Binding sometimes isn't actually instantiated yet somehow
+            binding?.webview?.destroy()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -202,7 +211,12 @@ class WebViewActivity : BaseViewBindingActivity<WebviewActivityBinding>() {
         private const val SOURCE_KEY = "source_key"
         private const val TITLE_KEY = "title_key"
 
-        fun newIntent(context: Context, url: String, sourceId: Long? = null, title: String? = null): Intent {
+        fun newIntent(
+            context: Context,
+            url: String,
+            sourceId: Long? = null,
+            title: String? = null
+        ): Intent {
             return Intent(context, WebViewActivity::class.java).apply {
                 addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
                 putExtra(URL_KEY, url)
