@@ -2,9 +2,10 @@ name: CI
 on:
   push:
     branches:
-      - *
+      - master
+      - x5
     tags:
-      - *
+      - v*
 
 jobs:
   build:
